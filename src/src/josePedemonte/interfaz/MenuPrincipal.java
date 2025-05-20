@@ -4,8 +4,13 @@ import java.util.Scanner;
 
 public class MenuPrincipal {
 
-    public void mostrarMenu() {
-        Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner;
+
+    public MenuPrincipal(Scanner scanner) {
+        this.scanner = scanner;
+    }
+
+    public void mostrar() {
         int opcion;
 
         do {
@@ -18,22 +23,22 @@ public class MenuPrincipal {
             opcion = scanner.nextInt();
 
             switch (opcion) {
-                case 1: {
+                case 1:
                     System.out.println("Mostrando personajes...");
-                }
-                case 2: {
+                    break;
+                case 2:
                     System.out.println("Mostrando inventario...");
-                }
-                case 3: {
+                    break;
+                case 3:
                     System.out.println("Iniciando combate...");
-                }
-                case 0: {
+                    break;
+                case 0:
                     System.out.println("Saliendo...");
-                }
-                default: {
+                    break;
+                default:
                     System.out.println("Opción no válida.");
-                }
             }
+
         } while (opcion != 0);
     }
 }
