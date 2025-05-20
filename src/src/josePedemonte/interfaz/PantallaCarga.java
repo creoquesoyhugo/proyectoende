@@ -2,7 +2,7 @@ package josePedemonte.interfaz;
 
 public class PantallaCarga {
 
-    public static void main(String[] args) {
+    public void mostrar() {
         System.out.println("Cargando...");
 
         for (int i = 0; i <= 100; i++) {
@@ -13,10 +13,9 @@ public class PantallaCarga {
         System.out.println("\n¡Carga completada!");
     }
 
-    public static void esperar() {
+    private void esperar() {
         for (long i = 0; i < 500_000; i++) {
-            // No hacer nada (solo perder tiempo)
+            // Bucle vacío para simular espera
         }
     }
 }
-
