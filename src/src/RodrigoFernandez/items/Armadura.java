@@ -2,7 +2,7 @@ package RodrigoFernandez.items;
 
 
 
-public class Armadura extends ItemCombate {
+public class Armadura extends itemsCombate {
     private int defensa;
     private String material; // Cuero, Acero, Mágico, etc.
 

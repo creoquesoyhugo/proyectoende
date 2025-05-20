@@ -1,7 +1,7 @@
 package RodrigoFernandez.items;
 
 
-public class Arma extends ItemCombate {
+public class Arma extends itemsCombate {
     private int danio;
     private String tipo; // Espada, Arco, Hacha, etc.
 
