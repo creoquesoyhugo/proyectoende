@@ -1,4 +1,4 @@
-package HugoDiaz.personajes;
+package HugoDiaz.enemigos;
 
 
 public class Heroe extends Personaje {

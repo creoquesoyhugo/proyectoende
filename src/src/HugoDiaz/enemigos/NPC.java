@@ -1,4 +1,4 @@
-package HugoDiaz.personajes;
+package HugoDiaz.enemigos;
 
 public class NPC extends Personaje {
     private String dialogo;
